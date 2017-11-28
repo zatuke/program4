@@ -72,7 +72,7 @@ public void simpleMoveNeg()
 @Test
 public void IntersectTest()
 {
-	System.out.println("trying the intersect of circle1 with intersecting circles");
+	
 	Assert.assertTrue(circle2.intersects(circle1)==true);
 }
 //
@@ -82,7 +82,6 @@ public void IntersectTest()
 @Test
 public void IntersectTest2()
 {
-	System.out.println("trying the intersect of circle1 with non intersecting circles");
 	Assert.assertTrue(circle3.intersects(circle1)==false);
 }
 
@@ -93,7 +92,6 @@ public void IntersectTest2()
 @Test
 public void ScaleS()
 {
-	System.out.println("trying the scale factor part of circle to a smaller scale");
 	Assert.assertTrue(circle2.scale(.5)==2);
 }
 
@@ -104,7 +102,6 @@ public void ScaleS()
 @Test
 public void ScaleL()
 {
-	System.out.println("trying the scale factor part of circle to a larger scale");
 	Assert.assertTrue(circle2.scale(2)==8);
 }
 
