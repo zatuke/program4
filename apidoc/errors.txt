@@ -4,4 +4,4 @@ errors list:
 
 2) error found in Circle2.java in function Circle2. found by Circle2Test through Test SimpleMove() and SimpleMoveNeg(). found that it was a logical error since the Circle1Test showed no problems with intersect the problem is where the passed in parameters were swapped when calling supper. fixed by assigning parameters in same order they are passed in.
 
-3) error found in circle with the SimpleMove() and SimpleMoveNeg() where the offset was incorrect. the center.y calculation was using the x.offset instead of the y.offset. changed to the corrected y.offset.
+3) error found in circle with the SimpleMove() and SimpleMoveNeg() where the offset was incorrect in the moveBy() function. the center.y calculation was using the x.offset instead of the y.offset. changed to the corrected y.offset.
