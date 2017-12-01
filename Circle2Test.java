@@ -47,8 +47,8 @@ public void simpleMove()
 {
    Point p;
    System.out.println("Running test simpleMove.");
-   p = cir1.moveBy(1,1);
-   Assert.assertTrue(p.x == 2 && p.y == 3);
+   p = cir1.moveBy(2,2);
+   Assert.assertTrue(p.x == 3 && p.y == 4);
 }
 
 // 
@@ -59,8 +59,8 @@ public void simpleMoveNeg()
 {
    Point p;
    System.out.println("Running test simpleMoveNeg.");
-   p = cir1.moveBy(-1,-1);
-   Assert.assertTrue(p.x == 0 && p.y == 1);
+   p = cir1.moveBy(-3,-5);
+   Assert.assertTrue(p.x == -2 && p.y == -3);
 }
 //
 //testing Circle2 intersects() to see if it catches an intersecting circle
